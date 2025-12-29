@@ -1,14 +1,14 @@
 {
-  "name": "nibelung-theme-vscode",
+  "name": "nibelung-theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/veschin/nibelung-theme-vscode.git"
+    "url": "https://github.com/davidstwart/nibelung-theme.git"
   },
-  "displayName": "nibelung-theme-vscode",
+  "displayName": "nibelung-theme",
   "description": "Minimalist Gray & Blue color scheme with Dark and Light variants",
   "icon": "extension/nibelung_logo128x128.png",
-  "publisher": "veschin",
-  "version": "0.1.0",
+  "publisher": "davidstwart",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.94.0"
   },
@@ -18,12 +18,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "Nibelung",
+        "label": "Nibelung - Custom",
         "uiTheme": "vs",
         "path": "./themes/nibelung-color-theme.json"
       },
       {
-        "label": "Nibelung Dark",
+        "label": "Nibelung Dark - Custom",
         "uiTheme": "vs-dark",
         "path": "./themes/nibelung-dark-color-theme.json"
       }
